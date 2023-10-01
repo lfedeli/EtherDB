@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width,
+                   initial-scale=1.0">
+	<link rel="stylesheet" href="./stylesheets/stylesheet.css">
+    <title>EtherDB</title>
+</head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <body>
+    <main>
+        <label>Name:</label>
+		<input type="text" id="name-input">
+		<button id="add-name-btn" onclick="showMessage(this.id)">Add Name</button> 
+
+		<br><br><br>
+		<div>
+           <input placeholder="search by name" id="search-input">
+		   <button id="search-btn" onclick="showMessage(this.id)">Search</button>
+		</div>
+
+        <table id="table">
+			<thead>
+                   <th>ID</th>
+                   <th>Name</th>
+                   <th>Date Added</th>
+                   <th>Delete</th>
+                   <th>Edit</th>
+		   </thead>	
+		   <tbody></tbody>
+
+
+		</table>
+		<section hidden id="update-row"> 
+		    <label>Name:</label>
+			<input type="text" id="update-name-input">
+			<button id="update-row-btn">Update</button>
+		</section>
+
+   </main>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
