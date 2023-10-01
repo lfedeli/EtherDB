@@ -34,10 +34,17 @@ all while enabling users to perform database operations upon the payment of a fe
 
 ## Getting Started
 
+### Prerequisites
+
+- Truffle v5.9.4 (core: 5.9.4)
+- Node v18.16.0
+- A working installation of [XAMPP](https://www.aopachefriends.org/download.html)
+- A running version of Ganache
+- Metamask extension added to you favourite browser
 
 ### Database manager installation
 
-Follow the instructions to install and setup [XAMPP](https://www.apachefriends.org/download.html) on your machine. 
+Follow the instructions to install and setup XAMPP on your machine. 
 XAMPP provides a relational database management system (RDBMS) that allows you to store, retrieve, and manage data in a structured format.
 
 ### Database generation
@@ -92,10 +99,6 @@ to setup your local testnet.
 Truffle is a suite of tools for smart contract development. Follow the [documentation](https://trufflesuite.com/docs/truffle/how-to/install/)
 to have it installed globally on your machine.
 
-### Prerequisites
-
-- Truffle v5.9.4 (core: 5.9.4)
-- Node v18.16.0
 
 ## Usage
 
